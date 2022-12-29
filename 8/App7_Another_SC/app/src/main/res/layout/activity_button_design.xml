@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Button_Design"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_back">
+<com.google.android.material.button.MaterialButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Button 1"
+    android:textColor="#fff"
+    app:strokeColor="#fff"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+    />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        app:backgroundTintMode="screen"
+        android:text="Button 2"
+        android:textColor="#fff"
+        android:background="@drawable/btn2_back"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTintMode="screen"
+        android:textColor="#fff"
+        android:text="Normal Button"
+        android:background="@drawable/btn2_back"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop Now"
+        app:icon="@drawable/ic_baseline_shopping_cart_24"
+      />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="#000"
+        app:icon="@drawable/ic_baseline_location_on_24"
+        app:iconGravity="end"
+        app:backgroundTintMode="screen"
+        android:background="@drawable/loc_back"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetLeft="0dp"
+        android:insetBottom="0dp"
+      android:text="Submit"
+        app:cornerRadius="100dp"/>
+</LinearLayout>

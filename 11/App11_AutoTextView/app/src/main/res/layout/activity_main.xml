@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back_gradient">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Type Country"
+    android:textSize="30dp"
+    android:textColor="#fff"
+    android:textAlignment="center"
+    android:fontFamily="@font/komi_"
+    android:layout_margin="20dp"/>
+    <AutoCompleteTextView
+        android:id="@+id/ac_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="quick brown"
+        android:textSize="50dp"
+        android:textColor="#CDA295"
+
+        android:textAlignment="center"
+        android:fontFamily="@font/gilbert"
+        android:layout_margin="20dp"/>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back_gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your National Country "
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:fontFamily="monospace"/>
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/pak"
+        android:onClick="selectcountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pakistan"
+        android:textSize="20dp"
+        android:buttonTint="#4CAF50"
+        android:textColor="#4CAF50"/>
+    <RadioButton
+        android:id="@+id/sri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Srilanka"
+        android:textSize="20dp"
+        android:onClick="selectcountry"
+        android:buttonTint="#FFC107"
+        android:textColor="#FFC107"/>
+    <RadioButton
+        android:id="@+id/ind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:textSize="20dp"
+        android:onClick="selectcountry"
+        android:buttonTint="#FF5722"
+        android:textColor="#FF5722"/>
+    <RadioButton
+        android:id="@+id/ger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Germany"
+        android:textSize="20dp"
+        android:onClick="selectcountry"
+        android:buttonTint="#DC0D0D"
+        android:textColor="#DC0D0D"/>
+
+</RadioGroup>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:fontFamily="monospace"/>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+</LinearLayout>

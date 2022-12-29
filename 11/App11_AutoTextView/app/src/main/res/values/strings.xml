@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">App11_AutoTextView</string>
+    <string-array name="list_country">
+        <item>Pakistan</item>
+        <item>Canada</item>
+        <item>Belgium</item>
+        <item>Bangladesh</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Brazil</item>
+        <item>France</item>
+        <item>Argentina</item>
+        <item>Croatia</item>
+        <item>China</item>
+        <item>America</item>
+    </string-array>
+</resources>

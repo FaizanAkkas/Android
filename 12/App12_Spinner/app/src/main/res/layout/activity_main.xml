@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back_grad">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Any Sport"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_margin="10dp"/>
+   <Spinner
+       android:id="@+id/cmb"
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+      android:dropDownSelector="@color/black"/>
+
+</LinearLayout>
