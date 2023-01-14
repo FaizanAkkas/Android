@@ -19,6 +19,7 @@ VideoView videoView;
         Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.videoplayback);
         videoView.setMediaController(mediaController);
         videoView.setVideoURI(uri);
+        videoView.requestFocus();
         videoView.start();
 
     }
