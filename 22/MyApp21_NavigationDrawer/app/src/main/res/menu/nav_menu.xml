@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item
+        android:id="@+id/menu_tab1"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"/>
+    <item
+        android:id="@+id/menu_tab2"
+        android:title="Video"
+        android:icon="@drawable/ic_baseline_videocam_24"/>
+    <item
+        android:id="@+id/menu_tab3"
+        android:title="Music"
+        android:icon="@drawable/ic_baseline_music_note_24"/>
+</group>
+    <item android:title="Social Media">
+    <menu >
+        <item
+            android:id="@+id/menu_tab4"
+            android:title="Facebook"
+            android:icon="@drawable/ic_baseline_videocam_24"/>
+        <item
+            android:id="@+id/menu_tab5"
+            android:title="Twitter"
+            android:icon="@drawable/ic_baseline_videocam_24"/>
+        <item
+            android:id="@+id/menu_tab6"
+            android:title="Youtube"
+            android:icon="@drawable/ic_baseline_videocam_24"/>
+
+    </menu>
+
+    </item>
+</menu>
