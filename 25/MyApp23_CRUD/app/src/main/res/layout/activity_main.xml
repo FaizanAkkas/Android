@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+   <TextView
+       style="@style/heading"
+       android:text="Student Info" />
+   <EditText
+       android:id="@+id/txt_id"
+       style="@style/edit_style"
+       android:hint="Id"/>
+   <EditText
+       android:id="@+id/txt_un"
+       style="@style/edit_style"
+       android:hint="Username"/>
+   <EditText
+       android:id="@+id/txt_email"
+       style="@style/edit_style"
+       android:hint="Email"/>
+   <EditText
+       android:id="@+id/txt_batchcode"
+       style="@style/edit_style"
+       android:hint="BatchCode"/>
+   <Button
+       android:id="@+id/btn_insert"
+       style="@style/ins_style"
+       android:text="Insert"/>
+   <Button
+       android:id="@+id/btn_view"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+      android:backgroundTint="#03A9F4"
+       android:text="View"/>
+</LinearLayout>
